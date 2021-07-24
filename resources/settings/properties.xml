@@ -1,0 +1,14 @@
+<properties>
+    <property id="ColourScheme" type="number">1</property>
+    <property id="ShowNumericTime" type="boolean">false</property>
+    
+    <property id="ShowBatteryLevel" type="boolean">true</property>
+    <property id="ShowStepGoalProgress" type="boolean">true</property>
+    
+    <property id="ShowDate" type="boolean">false</property>
+    <property id="DateFormat" type="number">1</property>
+    <property id="ShowIcons" type="boolean">false</property>
+    <property id="AlwaysEnglish" type="boolean">false</property>
+    
+    <property id="SmallerFont" type="boolean">false</property>
+</properties>

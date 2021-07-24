@@ -1,0 +1,71 @@
+<strings>
+
+    <string id="AppName">Fuzzy Text</string>
+    <string id="Language">eng</string>
+
+    <string id="ColourSchemeTitle">Color Scheme</string>
+    <string id="ColourOrange">Orange</string>
+    <string id="ColourBlue">Blue</string>
+    <string id="ColourGreen">Green</string>
+    <string id="ColourDarkGreen">Dark Green</string>
+    <string id="ColourRed">Red</string>
+    <string id="ColourDarkRed">Dark Red</string>
+    <string id="ColourYellow">Yellow</string>
+    <string id="ColourCyan">Cyan</string>
+    <string id="ColourPurple">Purple</string>
+    <string id="ColourMagenta">Magenta</string>
+    
+    <string id="ShowNumericTimeTitle">Show Numeric Time in Background</string>
+    <string id="ShowBatteryLevelTitle">Show Battery Level</string>
+    <string id="ShowStepGoalProgressTitle">Show Step Goal Progress</string>
+    <string id="ShowDateTitle">Show Date</string>
+    <string id="DateFormatTitle">Date Format</string>
+    <string id="ShowIconsTitle">Show Icons</string>
+    <string id="AlwaysEnglishTitle">Always English</string>
+    
+    <string id="SmallerFontTitle">Use Smaller Font (Experimental)</string>
+
+    <string id="DateFormatMonthDate">Month-Date eg. Feb 26</string>
+    <string id="DateFormatDayDate">Day-Date eg. Tue 26</string>    
+    <string id="MonthDateFormat">$1$ $2$</string>
+    <string id="DayDateFormat">$1$ $2$</string>
+    
+    <string id="Hour0">Twelve</string>
+    <string id="Hour1">One</string>
+    <string id="Hour2">Two</string>
+    <string id="Hour3">Three</string>
+    <string id="Hour4">Four</string>
+    <string id="Hour5">Five</string>
+    <string id="Hour6">Six</string>
+    <string id="Hour7">Seven</string>
+    <string id="Hour8">Eight</string>
+    <string id="Hour9">Nine</string>
+    <string id="Hour10">Ten</string>
+    <string id="Hour11">Eleven</string>
+    
+    <string id="TimeMinute0">0 o'clock</string>
+    <string id="TimeMinute5">Five Past 0</string>
+    <string id="TimeMinute10">Ten Past 0</string>
+    <string id="TimeMinute15">Quarter Past 0</string>
+    <string id="TimeMinute20">Twenty Past 0</string>
+    <string id="TimeMinute25">0 Twenty Five</string>
+    <string id="TimeMinute30">Half Past 0</string>
+    <string id="TimeMinute35">0 Thirty Five</string>
+    <string id="TimeMinute40">Twenty To 1</string>
+    <string id="TimeMinute45">Quarter To 1</string>
+    <string id="TimeMinute50">Ten To 1</string>
+    <string id="TimeMinute55">Five To 1</string>
+    
+    <string id="Hour0Override"></string>
+    <string id="Hour1Override"></string>
+    <string id="Hour2Override"></string>
+    <string id="Hour3Override"></string>
+    <string id="Hour4Override"></string>
+    <string id="Hour5Override"></string>
+    <string id="Hour6Override"></string>
+    <string id="Hour7Override"></string>
+    <string id="Hour8Override"></string>
+    <string id="Hour9Override"></string>
+    <string id="Hour10Override"></string>
+    <string id="Hour11Override"></string>    
+</strings>

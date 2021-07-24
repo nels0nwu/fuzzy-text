@@ -1,0 +1,49 @@
+<settings>
+    <setting propertyKey="@Properties.ColourScheme" title="@Strings.ColourSchemeTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.ColourYellow</listEntry>
+            <listEntry value="2">@Strings.ColourRed</listEntry>
+            <listEntry value="3">@Strings.ColourDarkRed</listEntry>
+            <listEntry value="4">@Strings.ColourOrange</listEntry>
+            <listEntry value="5">@Strings.ColourGreen</listEntry>
+            <listEntry value="6">@Strings.ColourDarkGreen</listEntry>
+            <listEntry value="7">@Strings.ColourCyan</listEntry>
+            <listEntry value="8">@Strings.ColourBlue</listEntry>
+            <listEntry value="9">@Strings.ColourPurple</listEntry>
+            <listEntry value="10">@Strings.ColourMagenta</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.ShowBatteryLevel" title="@Strings.ShowBatteryLevelTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.ShowStepGoalProgress" title="@Strings.ShowStepGoalProgressTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.ShowNumericTime" title="@Strings.ShowNumericTimeTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.ShowDate" title="@Strings.ShowDateTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    <setting propertyKey="@Properties.DateFormat" title="@Strings.DateFormatTitle">
+        <settingConfig type="list">
+            <listEntry value="1">@Strings.DateFormatMonthDate</listEntry>
+            <listEntry value="2">@Strings.DateFormatDayDate</listEntry>
+        </settingConfig>
+    </setting>
+    
+    <setting propertyKey="@Properties.ShowIcons" title="@Strings.ShowIconsTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.SmallerFont" title="@Strings.SmallerFontTitle">
+        <settingConfig type="boolean" />
+    </setting>
+    
+    <setting propertyKey="@Properties.AlwaysEnglish" title="@Strings.AlwaysEnglishTitle">
+        <settingConfig type="boolean" />
+    </setting>
+</settings>
