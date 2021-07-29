@@ -38,8 +38,6 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
     
     // Load your resources here
     function onLayout(dc) {
-        System.println("On layout");
-    
         numericFont = WatchUi.loadResource(Rez.Fonts.id_font_roboto_numeric);
         iconFont = WatchUi.loadResource(Rez.Fonts.id_font_icons);
     }
@@ -70,8 +68,6 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
     }
 
     function loadSettings() {
-        System.println("Settings changed");
-        
         var colourScheme = Application.getApp().getProperty("ColourScheme");
         primaryColour = 0xFFFFFF;
         tertiaryColour = 0x555555;
@@ -101,7 +97,6 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
         
         previousDisplayMinute = -1;
         
-        System.println(WatchUi.loadResource(Rez.Strings.Language));
         if (WatchUi.loadResource(Rez.Strings.Language).equals("eng") || Application.getApp().getProperty("AlwaysEnglish")) {
             textMinuteArray = { 
                 0 => "0 o'clock", 5 => "Five Past 0", 10 => "Ten Past 0", 15 => "Quarter Past 0", 20 => "Twenty Past 0", 25 => "0 Twenty Five", 
@@ -331,25 +326,18 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
 
     
     function setFuzzyFontSize(dc, displayHour, displayMinute) {
-        //System.println("Set fuzzy font size");
-        
         var mySettings = System.getDeviceSettings();
         screenShape = mySettings.screenShape;
         var screenIsSquare = screenShape == System.SCREEN_SHAPE_RECTANGLE;
         var useSmallerFont = Application.getApp().getProperty("SmallerFont");
         
         var maxWidthScreen = dc.getWidth();
-        //if (!screenIsSquare) {
-            //maxWidthScreen = maxWidthScreen * .775;
-        //}
         if (inLowPower && canBurnIn) {
             maxWidthScreen = maxWidthScreen * .6;
         }
         else if (useSmallerFont) {
             maxWidthScreen = maxWidthScreen * .75;
         }
-        
-        //System.println(Lang.format("height: $1$", [dc.getHeight()]));
         
         var fontCollection = [Rez.Fonts.id_font_roboto_text_140, Rez.Fonts.id_font_roboto_text_116, Rez.Fonts.id_font_roboto_text_76, Rez.Fonts.id_font_roboto_text_64, Rez.Fonts.id_font_roboto_text_56, Rez.Fonts.id_font_roboto_text_48];
         for (var f = 0; f < fontCollection.size(); f++) {
@@ -378,8 +366,6 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
                     }
                 }
                 
-                //System.println(Lang.format("y: $1$, width at y: $2$", [y, widthAtY]));
-            
                 var text = textDisplayArray[i].text;
                 
                 // pad text to 6 characters so font size never gets unexpectly huge.
@@ -401,14 +387,10 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
                 
                 if (totalTextWidth > widthAtY) {
                     fontTooLarge = true;
-                    //System.println(Lang.format("Too large. y: $1$, widthAtY: $2$, totalTextWidth: $3$", [y, widthAtY, totalTextWidth]));
                     break;
                 } else if (y.abs()*2 > dc.getHeight()) {
                     fontTooLarge = true;
-                    //System.println(Lang.format("Too tall. y: $1$, height: $2$", [y, dc.getHeight()]));
                     break;
-                } else {
-                    //System.println(Lang.format("Font fits. y: $1$, widthAtY: $2$, totalTextWidth: $3$", [y, widthAtY, totalTextWidth]));
                 }
             }
             
@@ -479,10 +461,6 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
                 var charWidth = dc.getTextWidthInPixels(char, fuzzyTextFont);
                 x += charWidth+textSpacingAdj;
             }
-            
-            //dc.drawText(0, y, fuzzyTextFont, text, Graphics.TEXT_JUSTIFY_LEFT);
-            
-            // getFontHeight(font)  Toybox::Lang::Number
         }
     }
     
