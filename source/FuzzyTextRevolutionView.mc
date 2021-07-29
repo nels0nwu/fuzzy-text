@@ -48,20 +48,20 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
     function onShow() {
     }
 
-	enum {
-	    Yellow = 1,
-	    Red,
-	    DarkRed,
-	    Orange,
-	    Green,
-	    DarkGreen,
-	    Cyan,
-	    Blue,
-	    Purple,
-	    Magenta
-	}
-	
-	// Date formats
+    enum {
+        Yellow = 1,
+        Red,
+        DarkRed,
+        Orange,
+        Green,
+        DarkGreen,
+        Cyan,
+        Blue,
+        Purple,
+        Magenta
+    }
+    
+    // Date formats
     enum {
         MonthDate = 1,
         DayDate
@@ -100,39 +100,39 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
         if (WatchUi.loadResource(Rez.Strings.Language).equals("eng") || Application.getApp().getProperty("AlwaysEnglish")) {
             textMinuteArray = { 
                 0 => "0 o'clock", 5 => "Five Past 0", 10 => "Ten Past 0", 15 => "Quarter Past 0", 20 => "Twenty Past 0", 25 => "0 Twenty Five", 
-		        30 => "Half Past 0", 35 => "0 Thirty Five", 40 => "Twenty To 1", 45 => "Quarter To 1", 50 => "Ten To 1", 55 => "Five To 1"
-		    };
-		    textHourArray = ["Twelve", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven"];
-		    textHourOverridesArray = ["", "", "", "", "", "", "", "", "", "", "", ""];
+                30 => "Half Past 0", 35 => "0 Thirty Five", 40 => "Twenty To 1", 45 => "Quarter To 1", 50 => "Ten To 1", 55 => "Five To 1"
+            };
+            textHourArray = ["Twelve", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven"];
+            textHourOverridesArray = ["", "", "", "", "", "", "", "", "", "", "", ""];
         } else {
-	        textMinuteArray = {
-		        0 => WatchUi.loadResource(Rez.Strings.TimeMinute0), 
-		        5 => WatchUi.loadResource(Rez.Strings.TimeMinute5), 
-		        10 => WatchUi.loadResource(Rez.Strings.TimeMinute10),
-		        15 => WatchUi.loadResource(Rez.Strings.TimeMinute15),
-		        20 => WatchUi.loadResource(Rez.Strings.TimeMinute20),
-		        25 => WatchUi.loadResource(Rez.Strings.TimeMinute25),
-		        30 => WatchUi.loadResource(Rez.Strings.TimeMinute30),
-		        35 => WatchUi.loadResource(Rez.Strings.TimeMinute35),
-		        40 => WatchUi.loadResource(Rez.Strings.TimeMinute40),
-		        45 => WatchUi.loadResource(Rez.Strings.TimeMinute45),
-		        50 => WatchUi.loadResource(Rez.Strings.TimeMinute50),
-		        55 => WatchUi.loadResource(Rez.Strings.TimeMinute55)
-		    };
-		    textHourArray = [
-		        WatchUi.loadResource(Rez.Strings.Hour0),
-		        WatchUi.loadResource(Rez.Strings.Hour1),
-		        WatchUi.loadResource(Rez.Strings.Hour2),
-		        WatchUi.loadResource(Rez.Strings.Hour3),
-		        WatchUi.loadResource(Rez.Strings.Hour4),
-		        WatchUi.loadResource(Rez.Strings.Hour5),
-		        WatchUi.loadResource(Rez.Strings.Hour6),
-		        WatchUi.loadResource(Rez.Strings.Hour7),
-		        WatchUi.loadResource(Rez.Strings.Hour8),
-		        WatchUi.loadResource(Rez.Strings.Hour9),
-		        WatchUi.loadResource(Rez.Strings.Hour10),
-		        WatchUi.loadResource(Rez.Strings.Hour11)
-		    ];
+            textMinuteArray = {
+                0 => WatchUi.loadResource(Rez.Strings.TimeMinute0),
+                5 => WatchUi.loadResource(Rez.Strings.TimeMinute5),
+                10 => WatchUi.loadResource(Rez.Strings.TimeMinute10),
+                15 => WatchUi.loadResource(Rez.Strings.TimeMinute15),
+                20 => WatchUi.loadResource(Rez.Strings.TimeMinute20),
+                25 => WatchUi.loadResource(Rez.Strings.TimeMinute25),
+                30 => WatchUi.loadResource(Rez.Strings.TimeMinute30),
+                35 => WatchUi.loadResource(Rez.Strings.TimeMinute35),
+                40 => WatchUi.loadResource(Rez.Strings.TimeMinute40),
+                45 => WatchUi.loadResource(Rez.Strings.TimeMinute45),
+                50 => WatchUi.loadResource(Rez.Strings.TimeMinute50),
+                55 => WatchUi.loadResource(Rez.Strings.TimeMinute55)
+            };
+            textHourArray = [
+                WatchUi.loadResource(Rez.Strings.Hour0),
+                WatchUi.loadResource(Rez.Strings.Hour1),
+                WatchUi.loadResource(Rez.Strings.Hour2),
+                WatchUi.loadResource(Rez.Strings.Hour3),
+                WatchUi.loadResource(Rez.Strings.Hour4),
+                WatchUi.loadResource(Rez.Strings.Hour5),
+                WatchUi.loadResource(Rez.Strings.Hour6),
+                WatchUi.loadResource(Rez.Strings.Hour7),
+                WatchUi.loadResource(Rez.Strings.Hour8),
+                WatchUi.loadResource(Rez.Strings.Hour9),
+                WatchUi.loadResource(Rez.Strings.Hour10),
+                WatchUi.loadResource(Rez.Strings.Hour11)
+            ];
             textHourOverridesArray = [
                 WatchUi.loadResource(Rez.Strings.Hour0Override),
                 WatchUi.loadResource(Rez.Strings.Hour1Override),
@@ -147,7 +147,7 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
                 WatchUi.loadResource(Rez.Strings.Hour10Override),
                 WatchUi.loadResource(Rez.Strings.Hour11Override)
             ];
-	    }
+        }
     }
 
     // Update the view
@@ -173,88 +173,88 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
         var screenIsFlatTyre = screenShape == System.SCREEN_SHAPE_SEMI_ROUND;
         
         if (!minimalism) {
-	        // Draw battery level
-	        if (Application.getApp().getProperty("ShowBatteryLevel")) {
-	            var batteryLevel = System.getSystemStats().battery / 100.0;
-		        dc.setColor(secondaryColour, Graphics.COLOR_TRANSPARENT);
-		        if (screenIsSquare) {
-		            dc.drawLine(width-1, height-1, width-1, height*(1-batteryLevel));
-		            dc.drawLine(width-2, height-1, width-2, height*(1-batteryLevel));
-		        } else {
-			        dc.drawArc(width/2, height/2, width/2, Graphics.ARC_CLOCKWISE, 90, 90-batteryLevel*360);
-			        dc.drawArc(width/2, height/2, width/2-1, Graphics.ARC_CLOCKWISE, 90, 90-batteryLevel*360);
-		        }
-	        }
-	        
-	        // Draw step goal
-	        if (Application.getApp().getProperty("ShowStepGoalProgress")) {
-		        var stepGoalProgress = ActivityMonitor.getInfo().steps.toDouble() / ActivityMonitor.getInfo().stepGoal;
-		        dc.setColor(primaryColour, Graphics.COLOR_TRANSPARENT);
-		        if (screenIsSquare) {
-		            dc.drawLine(0, height-1, width*stepGoalProgress, height-1);
-		            dc.drawLine(0, height-2, width*stepGoalProgress, height-2);
-		        } else {
-			        dc.drawArc(width/2, height/2, width/2-5, Graphics.ARC_CLOCKWISE, 90, 90-stepGoalProgress*360);
-			        dc.drawArc(width/2, height/2, width/2-6, Graphics.ARC_CLOCKWISE, 90, 90-stepGoalProgress*360);
-		        }
-	        }
-	        
-	        // Exact Time
-	        if (Application.getApp().getProperty("ShowNumericTime")) {
-	            drawNumericTime(dc, width, height, clockTime);
-	        }
+            // Draw battery level
+            if (Application.getApp().getProperty("ShowBatteryLevel")) {
+                var batteryLevel = System.getSystemStats().battery / 100.0;
+                dc.setColor(secondaryColour, Graphics.COLOR_TRANSPARENT);
+                if (screenIsSquare) {
+                    dc.drawLine(width-1, height-1, width-1, height*(1-batteryLevel));
+                    dc.drawLine(width-2, height-1, width-2, height*(1-batteryLevel));
+                } else {
+                    dc.drawArc(width/2, height/2, width/2, Graphics.ARC_CLOCKWISE, 90, 90-batteryLevel*360);
+                    dc.drawArc(width/2, height/2, width/2-1, Graphics.ARC_CLOCKWISE, 90, 90-batteryLevel*360);
+                }
+            }
+            
+            // Draw step goal
+            if (Application.getApp().getProperty("ShowStepGoalProgress")) {
+                var stepGoalProgress = ActivityMonitor.getInfo().steps.toDouble() / ActivityMonitor.getInfo().stepGoal;
+                dc.setColor(primaryColour, Graphics.COLOR_TRANSPARENT);
+                if (screenIsSquare) {
+                    dc.drawLine(0, height-1, width*stepGoalProgress, height-1);
+                    dc.drawLine(0, height-2, width*stepGoalProgress, height-2);
+                } else {
+                    dc.drawArc(width/2, height/2, width/2-5, Graphics.ARC_CLOCKWISE, 90, 90-stepGoalProgress*360);
+                    dc.drawArc(width/2, height/2, width/2-6, Graphics.ARC_CLOCKWISE, 90, 90-stepGoalProgress*360);
+                }
+            }
+            
+            // Exact Time
+            if (Application.getApp().getProperty("ShowNumericTime")) {
+                drawNumericTime(dc, width, height, clockTime);
+            }
         }        
         
         // Fuzzy Time
         drawFuzzyText(dc, width, height, clockTime);
 
         if (!minimalism) {
-	        // Draw date
-	        if (Application.getApp().getProperty("ShowDate")) {
-		        var dateString = "";
-		        var dateFormat = Application.getApp().getProperty("DateFormat");
-		        
-		        if (dateFormat == MonthDate) {
-		           dateString = Lang.format(WatchUi.loadResource(Rez.Strings.MonthDateFormat), [info.month, info.day]);
-		        } else if (dateFormat == DayDate) {
-		           dateString = Lang.format(WatchUi.loadResource(Rez.Strings.DayDateFormat), [info.day_of_week, info.day]);
-		        }
-		        
-	            dc.setColor(primaryColour, Graphics.COLOR_TRANSPARENT);
-	            
-	            var dateFontHeight = Graphics.getFontHeight(Graphics.FONT_SMALL);
-		        if (screenIsSquare) {
-		            dc.drawText(width-6, height-dateFontHeight-1, Graphics.FONT_SMALL, dateString, Graphics.TEXT_JUSTIFY_RIGHT);
-		        } else if (screenIsFlatTyre) {
-		            dc.drawText(width/2, height-dateFontHeight-1, Graphics.FONT_SMALL, dateString, Graphics.TEXT_JUSTIFY_CENTER);
-		        } else { // round
-		           dc.drawText(width/2, height-dateFontHeight-1-8, Graphics.FONT_SMALL, dateString, Graphics.TEXT_JUSTIFY_CENTER);
-		        }
-	        }
-	        
-	        var stats = System.getDeviceSettings();
-	        
-	        if (Application.getApp().getProperty("ShowIcons")) {
-		        var iconText = "";
-		        if (stats.notificationCount > 0) {
-		            iconText += "Â";
-		        }
-		        if (stats.phoneConnected) {
-		            iconText += "V";
-		        }
-		        if (stats.alarmCount > 0) {
-		            iconText += "R";
-		        }
-		                
-		        dc.setColor(primaryColour, Graphics.COLOR_TRANSPARENT);
-		        if (screenIsSquare) {
-		            dc.drawText(width-2, 0, iconFont, iconText, Graphics.TEXT_JUSTIFY_RIGHT);
-		        } else if (screenIsFlatTyre) {
-		            dc.drawText(width/2, 1, iconFont, iconText, Graphics.TEXT_JUSTIFY_CENTER);
-		        } else { // round
-		           dc.drawText(width/2, 8, iconFont, iconText, Graphics.TEXT_JUSTIFY_CENTER);
-		        }
-	        }
+            // Draw date
+            if (Application.getApp().getProperty("ShowDate")) {
+                var dateString = "";
+                var dateFormat = Application.getApp().getProperty("DateFormat");
+                
+                if (dateFormat == MonthDate) {
+                   dateString = Lang.format(WatchUi.loadResource(Rez.Strings.MonthDateFormat), [info.month, info.day]);
+                } else if (dateFormat == DayDate) {
+                   dateString = Lang.format(WatchUi.loadResource(Rez.Strings.DayDateFormat), [info.day_of_week, info.day]);
+                }
+                
+                dc.setColor(primaryColour, Graphics.COLOR_TRANSPARENT);
+                
+                var dateFontHeight = Graphics.getFontHeight(Graphics.FONT_SMALL);
+                if (screenIsSquare) {
+                    dc.drawText(width-6, height-dateFontHeight-1, Graphics.FONT_SMALL, dateString, Graphics.TEXT_JUSTIFY_RIGHT);
+                } else if (screenIsFlatTyre) {
+                    dc.drawText(width/2, height-dateFontHeight-1, Graphics.FONT_SMALL, dateString, Graphics.TEXT_JUSTIFY_CENTER);
+                } else { // round
+                   dc.drawText(width/2, height-dateFontHeight-1-8, Graphics.FONT_SMALL, dateString, Graphics.TEXT_JUSTIFY_CENTER);
+                }
+            }
+            
+            var stats = System.getDeviceSettings();
+            
+            if (Application.getApp().getProperty("ShowIcons")) {
+                var iconText = "";
+                if (stats.notificationCount > 0) {
+                    iconText += "Â";
+                }
+                if (stats.phoneConnected) {
+                    iconText += "V";
+                }
+                if (stats.alarmCount > 0) {
+                    iconText += "R";
+                }
+                        
+                dc.setColor(primaryColour, Graphics.COLOR_TRANSPARENT);
+                if (screenIsSquare) {
+                    dc.drawText(width-2, 0, iconFont, iconText, Graphics.TEXT_JUSTIFY_RIGHT);
+                } else if (screenIsFlatTyre) {
+                    dc.drawText(width/2, 1, iconFont, iconText, Graphics.TEXT_JUSTIFY_CENTER);
+                } else { // round
+                   dc.drawText(width/2, 8, iconFont, iconText, Graphics.TEXT_JUSTIFY_CENTER);
+                }
+            }
         }
     }
     
@@ -267,33 +267,33 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
     }
     
     function split(s, sep) {
-	    var tokens = [];
-	
-	    var found = s.find(sep);
-	    while (found != null) {
-	        var token = s.substring(0, found);
-	        tokens.add(token);
-	
-	        s = s.substring(found + sep.length(), s.length());
-	
-	        found = s.find(sep);
-	    }
-	
-	    tokens.add(s);
-	
-	    return tokens;
-	}
+        var tokens = [];
+    
+        var found = s.find(sep);
+        while (found != null) {
+            var token = s.substring(0, found);
+            tokens.add(token);
+    
+            s = s.substring(found + sep.length(), s.length());
+    
+            found = s.find(sep);
+        }
+    
+        tokens.add(s);
+    
+        return tokens;
+    }
     
     class FuzzyComponent
-	{
-	   var text;
-	   var isHour;
-	   
-	   function initialize(text, isHour) {
-	       self.text = text;
-	       self.isHour = isHour;
-	   }
-	}
+    {
+       var text;
+       var isHour;
+       
+       function initialize(text, isHour) {
+           self.text = text;
+           self.isHour = isHour;
+       }
+    }
     
     // Returns fuzzy text split up in lines
     function getFuzzyText(displayHour, displayMinute) {
