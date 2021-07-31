@@ -1,30 +1,30 @@
 <!--  translation credits: Sergio Rico  -->
 <strings>
-  <string id="Language">spa</string>
+    <string id="Language">spa</string>
+    
+    <string id="Hour0">Doce</string>
+    <string id="Hour1">Una</string>
+    <string id="Hour2">Dos</string>
+    <string id="Hour3">Tres</string>
+    <string id="Hour4">Cuatro</string>
+    <string id="Hour5">Cinco</string>
+    <string id="Hour6">Seis</string>
+    <string id="Hour7">Siete</string>
+    <string id="Hour8">Ocho</string>
+    <string id="Hour9">Nueve</string>
+    <string id="Hour10">Diez</string>
+    <string id="Hour11">Once</string>
 
-	<string id="Hour0">Doce</string>
-	<string id="Hour1">Una</string>
-	<string id="Hour2">Dos</string>
-	<string id="Hour3">Tres</string>
-	<string id="Hour4">Cuatro</string>
-	<string id="Hour5">Cinco</string>
-	<string id="Hour6">Seis</string>
-	<string id="Hour7">Siete</string>
-	<string id="Hour8">Ocho</string>
-	<string id="Hour9">Nueve</string>
-	<string id="Hour10">Diez</string>
-	<string id="Hour11">Once</string>
-	 
-	<string id="TimeMinute0">0 en Punto</string>
-	<string id="TimeMinute5">0 Y Cinco</string>
-	<string id="TimeMinute10">0 Y Diez</string>
-	<string id="TimeMinute15">0 Y Cuarto</string>
-	<string id="TimeMinute20">0 Y Veinte</string>
-	<string id="TimeMinute25">0 Y Veinticinco</string>
-	<string id="TimeMinute30">0 Y Media</string>
-	<string id="TimeMinute35">1 Menos Veinticinco</string>
-	<string id="TimeMinute40">1 Menos Veinte</string>
-	<string id="TimeMinute45">1 Menos Cuarto</string>
-	<string id="TimeMinute50">1 Menos Diez</string>
-	<string id="TimeMinute55">1 Menos Cinco</string>
+    <string id="TimeMinute0">0 en Punto</string>
+    <string id="TimeMinute5">0 Y Cinco</string>
+    <string id="TimeMinute10">0 Y Diez</string>
+    <string id="TimeMinute15">0 Y Cuarto</string>
+    <string id="TimeMinute20">0 Y Veinte</string>
+    <string id="TimeMinute25">0 Y Veinticinco</string>
+    <string id="TimeMinute30">0 Y Media</string>
+    <string id="TimeMinute35">1 Menos Veinticinco</string>
+    <string id="TimeMinute40">1 Menos Veinte</string>
+    <string id="TimeMinute45">1 Menos Cuarto</string>
+    <string id="TimeMinute50">1 Menos Diez</string>
+    <string id="TimeMinute55">1 Menos Cinco</string>
 </strings>

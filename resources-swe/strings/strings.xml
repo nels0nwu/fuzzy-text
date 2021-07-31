@@ -1,32 +1,30 @@
 <!--  translation credits: Mattias Diriksson  -->
 <strings>
+    <string id="Language">swe</string>
 
-	<string id="Language">swe</string>
+    <string id="Hour0">Tolv</string>
+    <string id="Hour1">Ett</string>
+    <string id="Hour2">Två</string>
+    <string id="Hour3">Tre</string>
+    <string id="Hour4">Fyra</string>
+    <string id="Hour5">Fem</string>
+    <string id="Hour6">Sex</string>
+    <string id="Hour7">Sju</string>
+    <string id="Hour8">Åtta</string>
+    <string id="Hour9">Nio</string>
+    <string id="Hour10">Tio</string>
+    <string id="Hour11">Elva</string>
 
-	<string id="Hour0">Tolv</string>
-	<string id="Hour1">Ett</string>
-	<string id="Hour2">Två</string>
-	<string id="Hour3">Tre</string>
-	<string id="Hour4">Fyra</string>
-	<string id="Hour5">Fem</string>
-	<string id="Hour6">Sex</string>
-	<string id="Hour7">Sju</string>
-	<string id="Hour8">Åtta</string>
-	<string id="Hour9">Nio</string>
-	<string id="Hour10">Tio</string>
-	<string id="Hour11">Elva</string>
-
-	<string id="TimeMinute0">Klockan 0</string>
-	<string id="TimeMinute5">Fem över 0</string>
-	<string id="TimeMinute10">Tio över 0</string>
-	<string id="TimeMinute15">Kvart över 0</string>
-	<string id="TimeMinute20">Tjugo över 0</string>
-	<string id="TimeMinute25">Fem i halv 1</string>
-	<string id="TimeMinute30">Halv 1</string>
-	<string id="TimeMinute35">Fem över halv 1</string>
-	<string id="TimeMinute40">Tjugo i 1</string>
-	<string id="TimeMinute45">Kvart i 1</string>
-	<string id="TimeMinute50">Tio i 1</string>
-	<string id="TimeMinute55">Fem i 1</string>
-    
+    <string id="TimeMinute0">Klockan 0</string>
+    <string id="TimeMinute5">Fem över 0</string>
+    <string id="TimeMinute10">Tio över 0</string>
+    <string id="TimeMinute15">Kvart över 0</string>
+    <string id="TimeMinute20">Tjugo över 0</string>
+    <string id="TimeMinute25">Fem i|halv|1</string>
+    <string id="TimeMinute30">Halv 1</string>
+    <string id="TimeMinute35">Fem över|halv|1</string>
+    <string id="TimeMinute40">Tjugo i|1</string>
+    <string id="TimeMinute45">Kvart i|1</string>
+    <string id="TimeMinute50">Tio i|1</string>
+    <string id="TimeMinute55">Fem i|1</string>
 </strings>
