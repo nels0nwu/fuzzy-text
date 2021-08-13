@@ -1,37 +1,37 @@
 <!-- translation credits: Ingo Herber -->
 <strings>
-  <string id="Language">deu</string>
+    <string id="Language">deu</string>
 
-  <string id="DateFormatMonthDate">Month-Date eg. 26. Feb.</string>
-  <string id="DateFormatDayDate">Day-Date eg. Di. 26.</string>
-  <string id="MonthDateFormat">$2$. $1$.</string>
-  <string id="DayDateFormat">$1$. $2$.</string>
+    <string id="DateFormatMonthDate">Month-Date eg. 26. Feb.</string>
+    <string id="DateFormatDayDate">Day-Date eg. Di. 26.</string>
+    <string id="MonthDateFormat">$2$. $1$.</string>
+    <string id="DayDateFormat">$1$. $2$.</string>
 
-	<string id="Hour0">Zwölf</string>
-	<string id="Hour1">Eins</string>
-	<string id="Hour2">Zwei</string>
-	<string id="Hour3">Drei</string>
-	<string id="Hour4">Vier</string>
-	<string id="Hour5">Fünf</string>
-	<string id="Hour6">Sechs</string>
-	<string id="Hour7">Sieben</string>
-	<string id="Hour8">Acht</string>
-	<string id="Hour9">Neun</string>
-	<string id="Hour10">Zehn</string>
-	<string id="Hour11">Elf</string>
-	
-	<string id="TimeMinute0">0 Uhr</string>
-	<string id="TimeMinute5">Fünf nach 0</string>
-	<string id="TimeMinute10">Zehn nach 0</string>
-	<string id="TimeMinute15">Viertel nach 0</string>
-	<string id="TimeMinute20">Zwanzig nach 0</string>
-	<string id="TimeMinute25">Fünf vor|halb|1</string>
-	<string id="TimeMinute30">Halb 1</string>
-	<string id="TimeMinute35">Fünf nach|halb|1</string>
-	<string id="TimeMinute40">Zwanzig vor 1</string>
-	<string id="TimeMinute45">Viertel vor 1</string>
-	<string id="TimeMinute50">Zehn vor 1</string>
-	<string id="TimeMinute55">Fünf vor 1</string>
-	
-	<string id="Hour1Override">*Ein Uhr</string>
+    <string id="Hour0">Zwölf</string>
+    <string id="Hour1">Eins</string>
+    <string id="Hour2">Zwei</string>
+    <string id="Hour3">Drei</string>
+    <string id="Hour4">Vier</string>
+    <string id="Hour5">Fünf</string>
+    <string id="Hour6">Sechs</string>
+    <string id="Hour7">Sieben</string>
+    <string id="Hour8">Acht</string>
+    <string id="Hour9">Neun</string>
+    <string id="Hour10">Zehn</string>
+    <string id="Hour11">Elf</string>
+
+    <string id="TimeMinute0">0 Uhr</string>
+    <string id="TimeMinute5">Fünf nach 0</string>
+    <string id="TimeMinute10">Zehn nach 0</string>
+    <string id="TimeMinute15">Viertel nach 0</string>
+    <string id="TimeMinute20">Zwanzig nach 0</string>
+    <string id="TimeMinute25">Fünf vor|halb|1</string>
+    <string id="TimeMinute30">Halb 1</string>
+    <string id="TimeMinute35">Fünf nach|halb|1</string>
+    <string id="TimeMinute40">Zwanzig vor 1</string>
+    <string id="TimeMinute45">Viertel vor 1</string>
+    <string id="TimeMinute50">Zehn vor 1</string>
+    <string id="TimeMinute55">Fünf vor 1</string>
+
+    <string id="Hour1Override">*Ein Uhr</string>
 </strings>
