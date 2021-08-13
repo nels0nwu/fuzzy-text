@@ -1,0 +1,30 @@
+<!--  translation credits: Nicolas Garnier  -->
+<strings>
+    <string id="Language">fre</string>
+
+    <string id="Hour0">Douze</string>
+    <string id="Hour1">Une</string>
+    <string id="Hour2">Deux</string>
+    <string id="Hour3">Trois</string>
+    <string id="Hour4">Quatre</string>
+    <string id="Hour5">Cinq</string>
+    <string id="Hour6">Six</string>
+    <string id="Hour7">Sept</string>
+    <string id="Hour8">Huit</string>
+    <string id="Hour9">Neuf</string>
+    <string id="Hour10">Dix</string>
+    <string id="Hour11">Onze</string>
+
+    <string id="TimeMinute0">0 Heures</string>
+    <string id="TimeMinute5">0 Cinq</string>
+    <string id="TimeMinute10">0 Dix</string>
+    <string id="TimeMinute15">0 et Quart</string>
+    <string id="TimeMinute20">0 Vingt</string>
+    <string id="TimeMinute25">0 Vingt cinq</string>
+    <string id="TimeMinute30">0 et Demie</string>
+    <string id="TimeMinute35">1|Moins|Vingt Cinq</string>
+    <string id="TimeMinute40">1 Moins Vingt</string>
+    <string id="TimeMinute45">1|Moins|le Quart</string>
+    <string id="TimeMinute50">1 Moins Dix</string>
+    <string id="TimeMinute55">1 Moins Cinq</string>
+</strings>
