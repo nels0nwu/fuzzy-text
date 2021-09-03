@@ -1,0 +1,82 @@
+<!-- translation credits: Filip Hric -->
+<strings>
+    <string id="Language">slo</string>
+
+    <string id="DateFormatMonthDate">Month-Date eg. Feb 26</string>
+    <string id="DateFormatDayDate">Day-Date eg. Tue 26</string>
+    <string id="MonthDateFormat">$1$ $2$</string>
+    <string id="DayDateFormat">$1$ $2$</string>
+
+    <string id="Hour0">Dvanásť</string>
+    <string id="Hour1">Jedna</string>
+    <string id="Hour2">Dve</string>
+    <string id="Hour3">Tri</string>
+    <string id="Hour4">Štyri</string>
+    <string id="Hour5">Päť</string>
+    <string id="Hour6">Šesť</string>
+    <string id="Hour7">Sedem</string>
+    <string id="Hour8">Osem</string>
+    <string id="Hour9">Deväť</string>
+    <string id="Hour10">Desať</string>
+    <string id="Hour11">Jedenásť</string>
+
+    <string id="TimeMinute0">0 hodín</string>
+    <string id="TimeMinute5">0 päť minút</string>
+    <string id="TimeMinute10">0 desať minút</string>
+    <string id="TimeMinute15">štvrť na 1</string>
+    <string id="TimeMinute20">0 dvadsať</string>
+    <string id="TimeMinute25">0 dvadsať päť</string>
+    <string id="TimeMinute30">0 tridsať</string>
+    <string id="TimeMinute35">0 tridsať päť</string>
+    <string id="TimeMinute40">0 štyridsať</string>
+    <string id="TimeMinute45">tri štvrte na 1</string>
+    <string id="TimeMinute50">o desať minút 1</string>
+    <string id="TimeMinute55">o päť minút 1</string>
+
+    <string id="Hour1Override">0 hodina</string>
+    <string id="Hour2Override">0 hodiny</string>
+    <string id="Hour3Override">0 hodiny</string>
+    <string id="Hour4Override">0 hodiny</string>
+
+    <string id="QuarterHour0Override">štvrť na *jednu</string>
+    <string id="QuarterHour1Override"></string>
+    <string id="QuarterHour2Override"></string>
+    <string id="QuarterHour3Override"></string>
+    <string id="QuarterHour4Override"></string>
+    <string id="QuarterHour5Override"></string>
+    <string id="QuarterHour6Override"></string>
+    <string id="QuarterHour7Override"></string>
+    <string id="QuarterHour8Override"></string>
+    <string id="QuarterHour9Override"></string>
+    <string id="QuarterHour10Override"></string>
+    <string id="QuarterHour11Override"></string>
+    <string id="QuarterHour12Override"></string>
+
+    <string id="HalfHour0Override">pol *jednej</string>
+    <string id="HalfHour1Override">pol *druhej</string>
+    <string id="HalfHour2Override">pol *tretej</string>
+    <string id="HalfHour3Override">pol *štvrtej</string>
+    <string id="HalfHour4Override">pol *piatej</string>
+    <string id="HalfHour5Override">pol *šiestej</string>
+    <string id="HalfHour6Override">pol *siedmej</string>
+    <string id="HalfHour7Override">pol *ôsmej</string>
+    <string id="HalfHour8Override">pol *deviatej</string>
+    <string id="HalfHour9Override">pol *desiatej</string>
+    <string id="HalfHour10Override">pol *jedenástej</string>
+    <string id="HalfHour11Override">pol *dvanástej</string>
+
+    <string id="ThreeQuarterHour0Override">tri štvrte na *jednu</string>
+    <string id="ThreeQuarterHour1Override"></string>
+    <string id="ThreeQuarterHour2Override"></string>
+    <string id="ThreeQuarterHour3Override"></string>
+    <string id="ThreeQuarterHour4Override"></string>
+    <string id="ThreeQuarterHour5Override"></string>
+    <string id="ThreeQuarterHour6Override"></string>
+    <string id="ThreeQuarterHour7Override"></string>
+    <string id="ThreeQuarterHour8Override"></string>
+    <string id="ThreeQuarterHour9Override"></string>
+    <string id="ThreeQuarterHour10Override"></string>
+    <string id="ThreeQuarterHour11Override"></string>
+    <string id="ThreeQuarterHour12Override"></string>
+
+</strings>
