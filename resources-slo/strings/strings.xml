@@ -21,17 +21,17 @@
     <string id="Hour11">Jedenásť</string>
 
     <string id="TimeMinute0">0 hodín</string>
-    <string id="TimeMinute5">0 päť minút</string>
-    <string id="TimeMinute10">0 desať minút</string>
-    <string id="TimeMinute15">štvrť na 1</string>
+    <string id="TimeMinute5">0|aj päť|minút</string>
+    <string id="TimeMinute10">0|aj desať|minút</string>
+    <string id="TimeMinute15">štvrť na|1</string>
     <string id="TimeMinute20">0 dvadsať</string>
     <string id="TimeMinute25">0 dvadsať päť</string>
     <string id="TimeMinute30">0 tridsať</string>
     <string id="TimeMinute35">0 tridsať päť</string>
     <string id="TimeMinute40">0 štyridsať</string>
     <string id="TimeMinute45">tri štvrte na 1</string>
-    <string id="TimeMinute50">o desať minút 1</string>
-    <string id="TimeMinute55">o päť minút 1</string>
+    <string id="TimeMinute50">o desať|minút|1</string>
+    <string id="TimeMinute55">o päť|minút|1</string>
 
     <string id="Hour1Override">0 hodina</string>
     <string id="Hour2Override">0 hodiny</string>
