@@ -39,18 +39,6 @@
     <string id="Hour4Override">0 hodiny</string>
 
     <string id="QuarterHour0Override">štvrť na *jednu</string>
-    <string id="QuarterHour1Override"></string>
-    <string id="QuarterHour2Override"></string>
-    <string id="QuarterHour3Override"></string>
-    <string id="QuarterHour4Override"></string>
-    <string id="QuarterHour5Override"></string>
-    <string id="QuarterHour6Override"></string>
-    <string id="QuarterHour7Override"></string>
-    <string id="QuarterHour8Override"></string>
-    <string id="QuarterHour9Override"></string>
-    <string id="QuarterHour10Override"></string>
-    <string id="QuarterHour11Override"></string>
-    <string id="QuarterHour12Override"></string>
 
     <string id="HalfHour0Override">pol *jednej</string>
     <string id="HalfHour1Override">pol *druhej</string>
@@ -66,17 +54,5 @@
     <string id="HalfHour11Override">pol *dvanástej</string>
 
     <string id="ThreeQuarterHour0Override">tri štvrte na *jednu</string>
-    <string id="ThreeQuarterHour1Override"></string>
-    <string id="ThreeQuarterHour2Override"></string>
-    <string id="ThreeQuarterHour3Override"></string>
-    <string id="ThreeQuarterHour4Override"></string>
-    <string id="ThreeQuarterHour5Override"></string>
-    <string id="ThreeQuarterHour6Override"></string>
-    <string id="ThreeQuarterHour7Override"></string>
-    <string id="ThreeQuarterHour8Override"></string>
-    <string id="ThreeQuarterHour9Override"></string>
-    <string id="ThreeQuarterHour10Override"></string>
-    <string id="ThreeQuarterHour11Override"></string>
-    <string id="ThreeQuarterHour12Override"></string>
 
 </strings>
