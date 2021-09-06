@@ -367,7 +367,7 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
             }
         }
 
-        if (displayMinute == 30) {
+        if (displayMinute == 45) {
             var override = textThreeQuarterHourOverridesArray[displayHour%12];
             if (!override.equals("")) {
                 unsplit = override;
