@@ -24,7 +24,7 @@
     <string id="TimeMinute30">0 tridsať</string>
     <string id="TimeMinute35">0 tridsať päť</string>
     <string id="TimeMinute40">0 štyridsať</string>
-    <string id="TimeMinute45">tri štvrte|na 1</string>
+    <string id="TimeMinute45">tri|štvrte na|1</string>
     <string id="TimeMinute50">o desať|minút|1</string>
     <string id="TimeMinute55">o päť|minút|1</string>
 
@@ -48,6 +48,6 @@
     <string id="HalfHour10Override">pol *jedenástej</string>
     <string id="HalfHour11Override">pol *dvanástej</string>
 
-    <string id="ThreeQuarterHour0Override">tri štvrte|na *jednu</string>
+    <string id="ThreeQuarterHour0Override">tri|štvrte na|*jednu</string>
 
 </strings>
