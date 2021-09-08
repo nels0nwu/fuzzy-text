@@ -67,4 +67,45 @@
     <string id="Hour9Override"></string>
     <string id="Hour10Override"></string>
     <string id="Hour11Override"></string>
+
+    <string id="QuarterHour0Override"></string>
+    <string id="QuarterHour1Override"></string>
+    <string id="QuarterHour2Override"></string>
+    <string id="QuarterHour3Override"></string>
+    <string id="QuarterHour4Override"></string>
+    <string id="QuarterHour5Override"></string>
+    <string id="QuarterHour6Override"></string>
+    <string id="QuarterHour7Override"></string>
+    <string id="QuarterHour8Override"></string>
+    <string id="QuarterHour9Override"></string>
+    <string id="QuarterHour10Override"></string>
+    <string id="QuarterHour11Override"></string>
+    <string id="QuarterHour12Override"></string>
+
+    <string id="HalfHour0Override"></string>
+    <string id="HalfHour1Override"></string>
+    <string id="HalfHour2Override"></string>
+    <string id="HalfHour3Override"></string>
+    <string id="HalfHour4Override"></string>
+    <string id="HalfHour5Override"></string>
+    <string id="HalfHour6Override"></string>
+    <string id="HalfHour7Override"></string>
+    <string id="HalfHour8Override"></string>
+    <string id="HalfHour9Override"></string>
+    <string id="HalfHour10Override"></string>
+    <string id="HalfHour11Override"></string>
+
+    <string id="ThreeQuarterHour0Override"></string>
+    <string id="ThreeQuarterHour1Override"></string>
+    <string id="ThreeQuarterHour2Override"></string>
+    <string id="ThreeQuarterHour3Override"></string>
+    <string id="ThreeQuarterHour4Override"></string>
+    <string id="ThreeQuarterHour5Override"></string>
+    <string id="ThreeQuarterHour6Override"></string>
+    <string id="ThreeQuarterHour7Override"></string>
+    <string id="ThreeQuarterHour8Override"></string>
+    <string id="ThreeQuarterHour9Override"></string>
+    <string id="ThreeQuarterHour10Override"></string>
+    <string id="ThreeQuarterHour11Override"></string>
+    <string id="ThreeQuarterHour12Override"></string>
 </strings>

@@ -1,0 +1,24 @@
+# character 357 gets cut off when font bitmmap is generated.
+# please change the xadvance parameter the manually to .fnt files 
+# when generating new bitmap:
+
+roboto_text_48.fnt:
+xadvance=17
+
+roboto_text_56.fnt:
+xadvance=20
+
+roboto_text_64.fnt:
+xadvance=23
+
+roboto_text_76.fnt:
+xadvance=31
+
+roboto_text_116.fnt:
+xadvance=45
+
+roboto_text_128.fnt:
+xadvance=45
+
+roboto_text_140.fnt:
+xadvance=50

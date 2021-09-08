@@ -35,6 +35,9 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
     var textMinuteArray;
     var textHourArray;
     var textHourOverridesArray;
+    var textHalfHourOverridesArray;
+    var textQuarterHourOverridesArray;
+    var textThreeQuarterHourOverridesArray;
     
     // Load your resources here
     function onLayout(dc) {
@@ -104,6 +107,9 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
             };
             textHourArray = ["Twelve", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven"];
             textHourOverridesArray = ["", "", "", "", "", "", "", "", "", "", "", ""];
+            textHalfHourOverridesArray = ["", "", "", "", "", "", "", "", "", "", "", ""];
+            textQuarterHourOverridesArray = ["", "", "", "", "", "", "", "", "", "", "", ""];
+            textThreeQuarterHourOverridesArray = ["", "", "", "", "", "", "", "", "", "", "", ""];
         } else {
             textMinuteArray = {
                 0 => WatchUi.loadResource(Rez.Strings.TimeMinute0),
@@ -146,6 +152,48 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
                 WatchUi.loadResource(Rez.Strings.Hour9Override),
                 WatchUi.loadResource(Rez.Strings.Hour10Override),
                 WatchUi.loadResource(Rez.Strings.Hour11Override)
+            ];
+            textHalfHourOverridesArray = [
+                WatchUi.loadResource(Rez.Strings.HalfHour0Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour1Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour2Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour3Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour4Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour5Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour6Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour7Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour8Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour9Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour10Override),
+                WatchUi.loadResource(Rez.Strings.HalfHour11Override)
+            ];
+            textQuarterHourOverridesArray = [
+                WatchUi.loadResource(Rez.Strings.QuarterHour0Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour1Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour2Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour3Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour4Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour5Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour6Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour7Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour8Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour9Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour10Override),
+                WatchUi.loadResource(Rez.Strings.QuarterHour11Override)
+            ];
+            textThreeQuarterHourOverridesArray = [
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour0Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour1Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour2Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour3Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour4Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour5Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour6Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour7Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour8Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour9Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour10Override),
+                WatchUi.loadResource(Rez.Strings.ThreeQuarterHour11Override)
             ];
         }
     }
@@ -300,6 +348,27 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
         var unsplit = textMinuteArray[displayMinute];
         if (displayMinute == 0) {
             var override = textHourOverridesArray[displayHour%12];
+            if (!override.equals("")) {
+                unsplit = override;
+            }
+        }
+
+        if (displayMinute == 15) {
+            var override = textQuarterHourOverridesArray[displayHour%12];
+            if (!override.equals("")) {
+                unsplit = override;
+            }
+        }
+
+        if (displayMinute == 30) {
+            var override = textHalfHourOverridesArray[displayHour%12];
+            if (!override.equals("")) {
+                unsplit = override;
+            }
+        }
+
+        if (displayMinute == 45) {
+            var override = textThreeQuarterHourOverridesArray[displayHour%12];
             if (!override.equals("")) {
                 unsplit = override;
             }
