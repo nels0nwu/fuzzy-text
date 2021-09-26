@@ -14,11 +14,11 @@ xadvance=23
 roboto_text_76.fnt:
 xadvance=31
 
+roboto_text_96.fnt:
+xadvance=35
+
 roboto_text_116.fnt:
 xadvance=45
 
 roboto_text_128.fnt:
 xadvance=45
-
-roboto_text_140.fnt:
-xadvance=50

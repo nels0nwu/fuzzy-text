@@ -1,0 +1,30 @@
+<!--  translation credits: Morten Evjen -->
+<strings>
+    <string id="Language">nob</string>
+
+    <string id="Hour0">Tolv</string>
+    <string id="Hour1">Ett</string>
+    <string id="Hour2">To</string>
+    <string id="Hour3">Tre</string>
+    <string id="Hour4">Fire</string>
+    <string id="Hour5">Fem</string>
+    <string id="Hour6">Seks</string>
+    <string id="Hour7">Sju</string>
+    <string id="Hour8">Åtte</string>
+    <string id="Hour9">Ni</string>
+    <string id="Hour10">Ti</string>
+    <string id="Hour11">Elleve</string>
+
+    <string id="TimeMinute0">Klokka 0</string>
+    <string id="TimeMinute5">Fem over 0</string>
+    <string id="TimeMinute10">Ti over 0</string>
+    <string id="TimeMinute15">Kvart over 0</string>
+    <string id="TimeMinute20">Ti på|halv|1</string>
+    <string id="TimeMinute25">Fem på|halv|1</string>
+    <string id="TimeMinute30">Halv 1</string>
+    <string id="TimeMinute35">Fem over|halv|1</string>
+    <string id="TimeMinute40">Ti over|halv|1</string>
+    <string id="TimeMinute45">Kvart på|1</string>
+    <string id="TimeMinute50">Ti på|1</string>
+    <string id="TimeMinute55">Fem på|1</string>
+</strings>

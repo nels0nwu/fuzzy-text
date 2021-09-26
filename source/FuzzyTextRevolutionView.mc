@@ -408,7 +408,7 @@ class FuzzyTextRevolutionView extends WatchUi.WatchFace {
             maxWidthScreen = maxWidthScreen * .75;
         }
         
-        var fontCollection = [Rez.Fonts.id_font_roboto_text_140, Rez.Fonts.id_font_roboto_text_116, Rez.Fonts.id_font_roboto_text_76, Rez.Fonts.id_font_roboto_text_64, Rez.Fonts.id_font_roboto_text_56, Rez.Fonts.id_font_roboto_text_48];
+        var fontCollection = [Rez.Fonts.id_font_roboto_text_128, Rez.Fonts.id_font_roboto_text_116, Rez.Fonts.id_font_roboto_text_96, Rez.Fonts.id_font_roboto_text_76, Rez.Fonts.id_font_roboto_text_64, Rez.Fonts.id_font_roboto_text_56, Rez.Fonts.id_font_roboto_text_48];
         for (var f = 0; f < fontCollection.size(); f++) {
             fuzzyTextFont = WatchUi.loadResource(fontCollection[f]);
             var fontHeight = dc.getFontHeight(fuzzyTextFont);

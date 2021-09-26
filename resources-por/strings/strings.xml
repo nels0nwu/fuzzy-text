@@ -1,0 +1,32 @@
+<!--  translation credits: Tânia Martins -->
+<strings>
+    <string id="Language">por</string>
+    
+    <string id="Hour0">Doze</string>
+    <string id="Hour1">Uma</string>
+    <string id="Hour2">Duas</string>
+    <string id="Hour3">Três</string>
+    <string id="Hour4">Quatro</string>
+    <string id="Hour5">Cinco</string>
+    <string id="Hour6">Seis</string>
+    <string id="Hour7">Sete</string>
+    <string id="Hour8">Oito</string>
+    <string id="Hour9">Nove</string>
+    <string id="Hour10">Dez</string>
+    <string id="Hour11">Onze</string>
+
+    <string id="TimeMinute0">0 horas</string>
+    <string id="TimeMinute5">0|e cinco</string>
+    <string id="TimeMinute10">0|e dez</string>
+    <string id="TimeMinute15">0|e um|quarto</string>
+    <string id="TimeMinute20">0|e vinte</string>
+    <string id="TimeMinute25">0|e vinte|cinco</string>
+    <string id="TimeMinute30">0|e meia</string>
+    <string id="TimeMinute35">0|e trinta|e cinco</string>
+    <string id="TimeMinute40">Vinte prás 1</string>
+    <string id="TimeMinute45">Um quarto|prás|1</string>
+    <string id="TimeMinute50">Dez prás 1</string>
+    <string id="TimeMinute55">Cinco prás 1</string>
+
+    <string id="Hour1Override">Uma hora</string>
+</strings>

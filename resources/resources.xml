@@ -5,8 +5,9 @@
         <font id="id_font_roboto_text_56" filename="fonts/roboto_text_56.fnt" />
         <font id="id_font_roboto_text_64" filename="fonts/roboto_text_64.fnt" />
         <font id="id_font_roboto_text_76" filename="fonts/roboto_text_76.fnt" />
+        <font id="id_font_roboto_text_96" filename="fonts/roboto_text_96.fnt" />
         <font id="id_font_roboto_text_116" filename="fonts/roboto_text_116.fnt" />
-        <font id="id_font_roboto_text_140" filename="fonts/roboto_text_140.fnt" />
+        <font id="id_font_roboto_text_128" filename="fonts/roboto_text_128.fnt" />
         
         <font id="id_font_icons" filename="fonts/icons.fnt" />
     </fonts>
