@@ -1,0 +1,31 @@
+<!-- translation credits: Mihály Ormay -->
+<strings>
+    <string id="Language">hun</string>
+
+    <string id="Hour0">Tizenkettő</string>
+    <string id="Hour1">Egy</string>
+    <string id="Hour2">Kettő</string>
+    <string id="Hour3">Három</string>
+    <string id="Hour4">Négy</string>
+    <string id="Hour5">Öt</string>
+    <string id="Hour6">Hat</string>
+    <string id="Hour7">Hét</string>
+    <string id="Hour8">Nyolc</string>
+    <string id="Hour9">Kilenc</string>
+    <string id="Hour10">Tíz</string>
+    <string id="Hour11">Tizenegy</string>
+
+    <string id="TimeMinute0">0</string>
+    <string id="TimeMinute5">0|óra öt</string>
+    <string id="TimeMinute10">0|óra tíz</string>
+    <string id="TimeMinute15">negyed 1</string>
+    <string id="TimeMinute20">0|óra húsz</string>
+    <string id="TimeMinute25">0 huszonöt</string>
+    <string id="TimeMinute30">fél 1</string>
+    <string id="TimeMinute35">0 harmincöt</string>
+    <string id="TimeMinute40">0 negyven</string>
+    <string id="TimeMinute45">három negyed 1</string>
+    <string id="TimeMinute50">0 ötven</string>
+    <string id="TimeMinute55">0 ötvenöt</string>
+
+</strings>
